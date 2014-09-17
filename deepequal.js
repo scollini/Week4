@@ -1,9 +1,12 @@
-//I think this problem was the easiet.
+ /*I couldn't figure out how to make euqal non-objects return false. 
+ I think it would look like that FizzBuzz exercise with the for loop with the ifs inside.*/
 
-function deepEqual(x, y){
-  if (x === y)
+ function deepEqual(x, y){
+ if (x === y)
     return true;
-  if (typeof x != "object" || typeof y != "object")
+   if (typeof x === "object" && typeof y === "object")
+    return true;
+   if (typeof x != "object" || typeof y != "object")
     return false;
 }
 
