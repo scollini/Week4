@@ -1,4 +1,4 @@
- /*I couldn't figure out how to make euqal non-objects return false. 
+ /*I couldn't figure out how to make equal non-objects return false. 
  I think it would look like that FizzBuzz exercise with the for loop with the ifs inside.*/
 
  function deepEqual(x, y){
