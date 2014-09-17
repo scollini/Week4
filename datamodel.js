@@ -32,3 +32,4 @@ console.log(Alce.midwife + " was paid " + Alce.amount  + " in " + Alce.date + " 
 document.write(Alce.midwife + " was paid " + Alce.amount  + " in " + Alce.date + " to deliver " + Alce.first + " at " + Alce.farm);
 
 //Susanna Bishop was paid 10s in 1771 to deliver Alce at Mansion House farm
+slavebirths.push(Moll)
