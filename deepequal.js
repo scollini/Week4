@@ -11,8 +11,8 @@
 }
 
 console.log(deepEqual("Ashley", "Ashley"));
-\\ true
+//true
 console.log(deepEqual("MaryKate," "Ashley"));
-\\ false
+// false
 console.log(deepEqual(3,4);
-\\false
+//false
